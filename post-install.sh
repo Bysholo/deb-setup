@@ -16,12 +16,11 @@ Pin-Priority: 1001
 
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 
-sudo apt-get install firefox plank tilix steam vlc neofetch neovim virtualbox -y
-sudo snap install onlyoffice-ds simplenote spotify
+sudo apt-get install firefox plank tilix steam vlc neofetch neovim virtualbox
+sudo snap install onlyoffice-ds simplenote spotify discord
 sudo flatpak install org.discordapp.Discord org.kryogenix.Pick
-cd ~/Downloads/deb-setup/
-sudo tar -xf fonts.tar.gz --directory ~/.fonts/
-sudo cp -r wp ~/Pictures/
+sudo tar -xf ~/Downloads/deb-setup/fonts.tar.gz --directory ~/.fonts/
+sudo cp -r ~/Downloads/deb-setup/wp ~/Pictures/
 sudo mv wp /etc/
 cd ./WhiteSur-gtk-theme/
 ./install.sh/

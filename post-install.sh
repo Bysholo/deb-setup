@@ -2,6 +2,7 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install snapd flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
 
 sudo snap remove firefox
@@ -24,3 +25,5 @@ sudo cp -r ~/Downloads/deb-setup/wp ~/Pictures/
 sudo mv ~/Downloads/deb-setup/wp /etc/
 cd ~/Downloads/deb-setup/WhiteSur-gtk-theme/
 ./install.sh/
+
+echo "Remember to reboot your system before searching/installing flathub packages"

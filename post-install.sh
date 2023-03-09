@@ -21,6 +21,6 @@ sudo snap install onlyoffice-ds simplenote spotify discord
 sudo mkdir ~/.fonts/
 sudo tar -xf ~/Downloads/deb-setup/fonts.tar.gz --directory ~/.fonts/
 sudo cp -r ~/Downloads/deb-setup/wp ~/Pictures/
-sudo mv wp /etc/
-cd ./WhiteSur-gtk-theme/
+sudo mv ~/Downloads/deb-setup/wp /etc/
+cd ~/Downloads/deb-setup/WhiteSur-gtk-theme/
 ./install.sh/

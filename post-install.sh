@@ -18,7 +18,7 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 
 sudo apt-get install firefox plank tilix steam vlc neofetch neovim virtualbox
 sudo snap install onlyoffice-ds simplenote spotify discord
-sudo flatpak install org.discordapp.Discord org.kryogenix.Pick
+sudo mkdir ~/.fonts/
 sudo tar -xf ~/Downloads/deb-setup/fonts.tar.gz --directory ~/.fonts/
 sudo cp -r ~/Downloads/deb-setup/wp ~/Pictures/
 sudo mv wp /etc/
